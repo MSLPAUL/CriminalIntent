@@ -11,7 +11,8 @@ public class Crime {
     private String mTitle;
     private Date mDate;
     private boolean mSolved;
-
+    
+    // comment for testing how the modification in GitHub works.
     public Crime(){
         mId = UUID.randomUUID();
         mDate = new Date();
